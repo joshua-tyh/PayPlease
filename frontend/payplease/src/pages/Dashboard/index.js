@@ -38,8 +38,8 @@ export default function Landing() {
         routes={routes}
         action={{
           type: "internal",
-          route: "/authentication/signin",
-          label: "Login / Logout",
+          route: "/",
+          label: "Logout",
           color: "white",
         }}
         transparent
